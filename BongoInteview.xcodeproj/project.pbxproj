@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE6334DB24D2351E008567F3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334DA24D2351E008567F3 /* AppDelegate.swift */; };
+		CE6334DD24D2351E008567F3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334DC24D2351E008567F3 /* SceneDelegate.swift */; };
+		CE6334DF24D2351E008567F3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334DE24D2351E008567F3 /* ViewController.swift */; };
+		CE6334E224D2351E008567F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6334E024D2351E008567F3 /* Main.storyboard */; };
+		CE6334E424D23528008567F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE6334E324D23528008567F3 /* Assets.xcassets */; };
+		CE6334E724D23528008567F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6334E524D23528008567F3 /* LaunchScreen.storyboard */; };
+		CE6334F224D23529008567F3 /* BongoInteviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334F124D23529008567F3 /* BongoInteviewTests.swift */; };
+		CE6334FD24D23529008567F3 /* BongoInteviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334FC24D23529008567F3 /* BongoInteviewUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE6334EE24D23529008567F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6334CF24D2351E008567F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6334D624D2351E008567F3;
+			remoteInfo = BongoInteview;
+		};
+		CE6334F924D23529008567F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE6334CF24D2351E008567F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE6334D624D2351E008567F3;
+			remoteInfo = BongoInteview;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE6334D724D2351E008567F3 /* BongoInteview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BongoInteview.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6334DA24D2351E008567F3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE6334DC24D2351E008567F3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CE6334DE24D2351E008567F3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE6334E124D2351E008567F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE6334E324D23528008567F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE6334E624D23528008567F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE6334E824D23528008567F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6334ED24D23529008567F3 /* BongoInteviewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BongoInteviewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6334F124D23529008567F3 /* BongoInteviewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongoInteviewTests.swift; sourceTree = "<group>"; };
+		CE6334F324D23529008567F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6334F824D23529008567F3 /* BongoInteviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BongoInteviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE6334FC24D23529008567F3 /* BongoInteviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongoInteviewUITests.swift; sourceTree = "<group>"; };
+		CE6334FE24D23529008567F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE6334D424D2351E008567F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6334EA24D23529008567F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6334F524D23529008567F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE6334CE24D2351E008567F3 = {
+			isa = PBXGroup;
+			children = (
+				CE6334D924D2351E008567F3 /* BongoInteview */,
+				CE6334F024D23529008567F3 /* BongoInteviewTests */,
+				CE6334FB24D23529008567F3 /* BongoInteviewUITests */,
+				CE6334D824D2351E008567F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE6334D824D2351E008567F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE6334D724D2351E008567F3 /* BongoInteview.app */,
+				CE6334ED24D23529008567F3 /* BongoInteviewTests.xctest */,
+				CE6334F824D23529008567F3 /* BongoInteviewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE6334D924D2351E008567F3 /* BongoInteview */ = {
+			isa = PBXGroup;
+			children = (
+				CE6334DA24D2351E008567F3 /* AppDelegate.swift */,
+				CE6334DC24D2351E008567F3 /* SceneDelegate.swift */,
+				CE6334DE24D2351E008567F3 /* ViewController.swift */,
+				CE6334E024D2351E008567F3 /* Main.storyboard */,
+				CE6334E324D23528008567F3 /* Assets.xcassets */,
+				CE6334E524D23528008567F3 /* LaunchScreen.storyboard */,
+				CE6334E824D23528008567F3 /* Info.plist */,
+			);
+			path = BongoInteview;
+			sourceTree = "<group>";
+		};
+		CE6334F024D23529008567F3 /* BongoInteviewTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6334F124D23529008567F3 /* BongoInteviewTests.swift */,
+				CE6334F324D23529008567F3 /* Info.plist */,
+			);
+			path = BongoInteviewTests;
+			sourceTree = "<group>";
+		};
+		CE6334FB24D23529008567F3 /* BongoInteviewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE6334FC24D23529008567F3 /* BongoInteviewUITests.swift */,
+				CE6334FE24D23529008567F3 /* Info.plist */,
+			);
+			path = BongoInteviewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE6334D624D2351E008567F3 /* BongoInteview */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE63350124D23529008567F3 /* Build configuration list for PBXNativeTarget "BongoInteview" */;
+			buildPhases = (
+				CE6334D324D2351E008567F3 /* Sources */,
+				CE6334D424D2351E008567F3 /* Frameworks */,
+				CE6334D524D2351E008567F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BongoInteview;
+			productName = BongoInteview;
+			productReference = CE6334D724D2351E008567F3 /* BongoInteview.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE6334EC24D23529008567F3 /* BongoInteviewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE63350424D23529008567F3 /* Build configuration list for PBXNativeTarget "BongoInteviewTests" */;
+			buildPhases = (
+				CE6334E924D23529008567F3 /* Sources */,
+				CE6334EA24D23529008567F3 /* Frameworks */,
+				CE6334EB24D23529008567F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6334EF24D23529008567F3 /* PBXTargetDependency */,
+			);
+			name = BongoInteviewTests;
+			productName = BongoInteviewTests;
+			productReference = CE6334ED24D23529008567F3 /* BongoInteviewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE6334F724D23529008567F3 /* BongoInteviewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE63350724D23529008567F3 /* Build configuration list for PBXNativeTarget "BongoInteviewUITests" */;
+			buildPhases = (
+				CE6334F424D23529008567F3 /* Sources */,
+				CE6334F524D23529008567F3 /* Frameworks */,
+				CE6334F624D23529008567F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE6334FA24D23529008567F3 /* PBXTargetDependency */,
+			);
+			name = BongoInteviewUITests;
+			productName = BongoInteviewUITests;
+			productReference = CE6334F824D23529008567F3 /* BongoInteviewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE6334CF24D2351E008567F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = "Sunny Chowdhury";
+				TargetAttributes = {
+					CE6334D624D2351E008567F3 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					CE6334EC24D23529008567F3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CE6334D624D2351E008567F3;
+					};
+					CE6334F724D23529008567F3 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = CE6334D624D2351E008567F3;
+					};
+				};
+			};
+			buildConfigurationList = CE6334D224D2351E008567F3 /* Build configuration list for PBXProject "BongoInteview" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE6334CE24D2351E008567F3;
+			productRefGroup = CE6334D824D2351E008567F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE6334D624D2351E008567F3 /* BongoInteview */,
+				CE6334EC24D23529008567F3 /* BongoInteviewTests */,
+				CE6334F724D23529008567F3 /* BongoInteviewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE6334D524D2351E008567F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6334E724D23528008567F3 /* LaunchScreen.storyboard in Resources */,
+				CE6334E424D23528008567F3 /* Assets.xcassets in Resources */,
+				CE6334E224D2351E008567F3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6334EB24D23529008567F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6334F624D23529008567F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE6334D324D2351E008567F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6334DF24D2351E008567F3 /* ViewController.swift in Sources */,
+				CE6334DB24D2351E008567F3 /* AppDelegate.swift in Sources */,
+				CE6334DD24D2351E008567F3 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6334E924D23529008567F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6334F224D23529008567F3 /* BongoInteviewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE6334F424D23529008567F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6334FD24D23529008567F3 /* BongoInteviewUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE6334EF24D23529008567F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6334D624D2351E008567F3 /* BongoInteview */;
+			targetProxy = CE6334EE24D23529008567F3 /* PBXContainerItemProxy */;
+		};
+		CE6334FA24D23529008567F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE6334D624D2351E008567F3 /* BongoInteview */;
+			targetProxy = CE6334F924D23529008567F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE6334E024D2351E008567F3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6334E124D2351E008567F3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE6334E524D23528008567F3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE6334E624D23528008567F3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE6334FF24D23529008567F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE63350024D23529008567F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE63350224D23529008567F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F439X7F2DY;
+				INFOPLIST_FILE = BongoInteview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3SKLab.BongoInteview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE63350324D23529008567F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F439X7F2DY;
+				INFOPLIST_FILE = BongoInteview/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3SKLab.BongoInteview;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		CE63350524D23529008567F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F439X7F2DY;
+				INFOPLIST_FILE = BongoInteviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3SKLab.BongoInteviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BongoInteview.app/BongoInteview";
+			};
+			name = Debug;
+		};
+		CE63350624D23529008567F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F439X7F2DY;
+				INFOPLIST_FILE = BongoInteviewTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3SKLab.BongoInteviewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BongoInteview.app/BongoInteview";
+			};
+			name = Release;
+		};
+		CE63350824D23529008567F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F439X7F2DY;
+				INFOPLIST_FILE = BongoInteviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3SKLab.BongoInteviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BongoInteview;
+			};
+			name = Debug;
+		};
+		CE63350924D23529008567F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F439X7F2DY;
+				INFOPLIST_FILE = BongoInteviewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.3SKLab.BongoInteviewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BongoInteview;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE6334D224D2351E008567F3 /* Build configuration list for PBXProject "BongoInteview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE6334FF24D23529008567F3 /* Debug */,
+				CE63350024D23529008567F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE63350124D23529008567F3 /* Build configuration list for PBXNativeTarget "BongoInteview" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE63350224D23529008567F3 /* Debug */,
+				CE63350324D23529008567F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE63350424D23529008567F3 /* Build configuration list for PBXNativeTarget "BongoInteviewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE63350524D23529008567F3 /* Debug */,
+				CE63350624D23529008567F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE63350724D23529008567F3 /* Build configuration list for PBXNativeTarget "BongoInteviewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE63350824D23529008567F3 /* Debug */,
+				CE63350924D23529008567F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE6334CF24D2351E008567F3 /* Project object */;
+}
