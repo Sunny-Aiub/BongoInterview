@@ -10,11 +10,54 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var contentTextView: UITextView!
+    @IBOutlet weak var btnGetContents: UIButton!
+    
+    var outputText: String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        //getContentsFromUrl()
     }
 
+    @IBAction func buttonClicked(_ sender: Any) {
+        self.outputText = ""
+        getContentsFromUrl()
+        self.contentTextView.text = self.outputText
+    }
+    
+    func getContentsFromUrl(){
+        
+        if let url = URL(string: "https://bongobd.com/disclaimer") {
+            do {
+                let contents = try String(contentsOf: url)
+               
+                if contents.count > 0{
+                    print("Last charachter: \t \(contents.last!)\n")
+                    let str = "Last charachter: \t \(contents.last!)\n"
+                    self.outputText.append(str)
+                    
+                    let array = contents.map( { String($0) })
+                     for (index,character) in array.enumerated(){
+                         if (index + 1)%10 == 0{
+                             print("\(index + 1)th charachter: \t \(character)\n")
+                            let str = "\(index + 1)th charachter: \t \(character)\n"
+                            self.outputText.append(str)
+                         }
+                     }
+                }else{
+                    print("No Content Found")
+                }
+            } catch {
+                print("The Contents could not be loaded!")
+            }
+        } else {
+            print("The URL was bad!")
+        }
+    }
 
 }
 
+ 

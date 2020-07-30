@@ -15,6 +15,7 @@
 		CE6334E724D23528008567F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE6334E524D23528008567F3 /* LaunchScreen.storyboard */; };
 		CE6334F224D23529008567F3 /* BongoInteviewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334F124D23529008567F3 /* BongoInteviewTests.swift */; };
 		CE6334FD24D23529008567F3 /* BongoInteviewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6334FC24D23529008567F3 /* BongoInteviewUITests.swift */; };
+		CE63350B24D23B1B008567F3 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE63350A24D23B1B008567F3 /* String.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		CE6334F824D23529008567F3 /* BongoInteviewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BongoInteviewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE6334FC24D23529008567F3 /* BongoInteviewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BongoInteviewUITests.swift; sourceTree = "<group>"; };
 		CE6334FE24D23529008567F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE63350A24D23B1B008567F3 /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				CE6334E324D23528008567F3 /* Assets.xcassets */,
 				CE6334E524D23528008567F3 /* LaunchScreen.storyboard */,
 				CE6334E824D23528008567F3 /* Info.plist */,
+				CE63350A24D23B1B008567F3 /* String.swift */,
 			);
 			path = BongoInteview;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			files = (
 				CE6334DF24D2351E008567F3 /* ViewController.swift in Sources */,
 				CE6334DB24D2351E008567F3 /* AppDelegate.swift in Sources */,
+				CE63350B24D23B1B008567F3 /* String.swift in Sources */,
 				CE6334DD24D2351E008567F3 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -435,8 +439,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F439X7F2DY;
+				DEVELOPMENT_TEAM = SFLEM6QG6F;
 				INFOPLIST_FILE = BongoInteview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,8 +458,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = F439X7F2DY;
+				DEVELOPMENT_TEAM = SFLEM6QG6F;
 				INFOPLIST_FILE = BongoInteview/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
