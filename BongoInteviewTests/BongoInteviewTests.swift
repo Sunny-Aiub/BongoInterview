@@ -11,24 +11,44 @@ import XCTest
 
 class BongoInteviewTests: XCTestCase {
 
-    override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+    var vc:ViewController?
+    var outputText: String = ""
+    
+    override func setUp() {
+        let storyboard=UIStoryboard(name:"Main", bundle:nil)
+        vc = storyboard.instantiateViewController(identifier:String(describing:ViewController.self))
+        vc!.loadViewIfNeeded()
     }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+    
+    override func tearDown() {
+        vc = nil
     }
-
-    func testExample() throws {
-        // This is an example of a functional test case.
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
-    }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        self.measure {
-            // Put the code you want to measure the time of here.
+    
+    func testIfLoginButtonHasActionAssigned() {
+        
+        //Check if Controller has UIButton property
+        let btnGetContents: UIButton = vc?.btnGetContents ?? UIButton()
+        XCTAssertNotNil(btnGetContents, "View Controller does not have UIButton property")
+        
+        // Attempt Access UIButton Actions
+        guard let btnGetContentsActions = btnGetContents.actions(forTarget: vc, forControlEvent: .touchUpInside) else {
+            XCTFail("UIButton does not have actions assigned for Control Event .touchUpInside")
+            return
         }
+     
+        // Assert UIButton has action with a method name
+        XCTAssertTrue(btnGetContentsActions.contains("buttonClicked:"))
+        
+        
+        let url : String = "https://bongobd.com/disclaimer"
+        let dataString = vc!.getStringFromUrl(urlString: url)
+        outputText = vc!.getContentsFromUrl(contents: dataString)
+
+        XCTAssertEqual(outputText, vc?.outputText)
+
     }
+    
+    
+      
 
 }
